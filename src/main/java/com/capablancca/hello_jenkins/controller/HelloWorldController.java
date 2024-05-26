@@ -9,4 +9,8 @@ public class HelloWorldController {
     public String hello(){
         return "Hello World!!";
     }
+    @GetMapping("/jenkins")
+    public String jenkinsHello(){
+        return "Hello from Jenkins!!!!!";
+    }
 }
