@@ -16,6 +16,6 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String helloWorld(){
-        return "Hello world from Jenkins application using GIT-101 branch";
+        return "Hello world from Jenkins application using GIT-101 branch-----";
     }
 }
